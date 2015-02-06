@@ -7,6 +7,8 @@ if(isset($_POST['deco'])){
 $accueil->deconnexion($_POST['deco']);
 }
 
+// hello
+
 $accueil1 = $accueil->activate();
 
 if(isset($_SESSION['nom'])){
